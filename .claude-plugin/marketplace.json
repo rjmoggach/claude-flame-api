@@ -1,0 +1,12 @@
+{
+  "name": "claude-flame-api",
+  "owner": { "name": "Robert Moggach", "email": "rjmoggach@gmail.com" },
+  "plugins": [
+    {
+      "name": "flame-api",
+      "source": "./",
+      "description": "Autodesk Flame 2027 developer API context skill for building Flame tools, hooks and shaders.",
+      "version": "2027.1.0"
+    }
+  ]
+}

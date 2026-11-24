@@ -1,0 +1,68 @@
+PyActionFamilyNode	PyNode	Class derived from PyNode. Represents an Action Family node object.
+PyActionNode	PyActionFamilyNode	Class derived from PyActionFamilyNode. Represents an Action node object.
+PyArchiveEntry	PyFlameObject	Class derived from PyFlameObject. Base class for any object displayed in the Media Panel.
+PyAttribute		
+PyAudioTrack	PyFlameObject	Object representing an Audio Track.
+PyBatch	PyFlameObject	Class derived from PyFlameObject. This class represents a Batch Group.
+PyBatchIteration	PyArchiveEntry	Class derived from PyArchiveEntry. This class represents a Batch Iteration.
+PyBrowser		This class represents the file browser.
+PyClip	PyArchiveEntry	Class derived from PyArchiveEntry. This class represents a Clip.
+PyClipNode	PyNode	Class derived from PyNode. This class represents a Clip node.
+PyCoCameraAnalysis	PyCoNode	Class derived from PyCoNode. This class represents the camera analysis node in the Action schematic.
+PyCoCompass	PyCoNode	Class derived from PyCoNode. This class represents the compass node in the Action schematic.
+PyCoNode	PyFlameObject	Class derived from PyFlameObject. This class represents an Action node in the Action schematic.
+PyClrMgmtNode	PyNode	Class derived from PyNode. This class represents a Colour Management node.
+PyCompassNode	PyNode	Class derived from PyNode. This class represents a Compass node.
+PyDesktop	PyArchiveEntry	Class derived from PyArchiveEntry. This class represents a Desktop.
+PyExporter		Object holding export settings.
+PyFlameObject		The basic type of all accessible Flame objects from the python API.
+PyFolder	PyArchiveEntry	Class derived from PyArchiveEntry. This class represents a Folder.
+PyGMaskTracerNode	PyActionFamilyNode	Class derived from PyActionFamilyNode. Represents a GMask Tracer node object.
+PyHDRNode	PyNode	Object representing a HDR node.
+PyClrMgmtTimelineFX	PyTimelineFX	Object representing a Colour Management TimelineFX.
+PyHDRTimelineFX	PyTimelineFX	Object representing a HDR TimelineFX.
+PyTimewarpTimelineFX	PyTimelineFX	Object representing a Timewarp TimelineFX.
+PyTypeTimelineFX	PyTimelineFX	Object representing a Type TimelineFX.
+PyInferenceNode	PyNode	Object representing an Inference node.
+PyLensDistortionNode	PyNode	Object representing a Lens Distortion node.
+PyMorphNode	PyNode	Object representing a Morph node.
+PyImageNode	PyActionFamilyNode	Class derived from PyActionFamilyNode. Represents an Image node object.
+PyLibrary	PyArchiveEntry	Class derived from PyArchiveEntry. This class represents a Library.
+PyMarker	PyFlameObject	Object representing a Marker.
+PyMediaHub		This class represents the MediaHub.
+PyMediaHubFilesEntry	PyArchiveEntry	Object representing a clip in the MediaHub Files tabs
+PyMediaHubFilesFolder	PyArchiveEntry	Object representing a folder in the MediaHub Files tabs
+PyMediaHubFilesTab	PyMediaHubTab	This class represents the MediaHub Files tab.
+PyMediaHubFilesTabOptions		This class represents the MediaHub Files tab options.
+PyMediaHubProjectsEntry	PyArchiveEntry	Object representing a clip in the MediaHub Projects tabs
+PyMediaHubProjectsFolder	PyArchiveEntry	Object representing a folder in the MediaHub Projects tabs
+PyMediaHubTab		This class represents a MediaHub tab.
+PyMediaPanel		This class represents the Media Panel.
+PyMessages		Module handling message bar in application UI.
+PyNode	PyFlameObject	Object representing a Node.
+PyOFXNode	PyNode	Object representing a OpenFX node.
+PyPaintNode	PyNode	Object representing a Paint node.
+PyProject	PyArchiveEntry	Object representing a Project.
+PyProjectSelector		Object representing the Project manager.
+PyReel	PyArchiveEntry	Object representing a Reel.
+PyReelGroup	PyArchiveEntry	Object representing a Reel Group.
+PyRenderNode	PyNode	Class derived from PyNode. This class represents a Render node.
+PyTimewarpNode	PyNode	Object representing a Timewarp node.
+PyTypeNode	PyTimelineFX	Object representing a Type TimelineFX.
+PyTypeLayer	PyTypeNode	Object representing a Type Layer.
+PyResolution		Object representing a resolution
+PySearch		This class represents the search.
+PySegment	PyFlameObject	Object representing a Segment.
+PySequence	PyClip	Object representing a Sequence.
+PySequenceGroup	PyFlameObject	Object representing a Group in a Sequence.
+PySubtitleTrack	PyTrack	Object representing a Subtitle Track.
+PyTime		Object representing a time unit
+PyTimeline		This class represents the Timeline.
+PyTimelineFX	PyFlameObject	Object representing a TimelineFX.
+PyTrack	PyFlameObject	Object representing a Track.
+PyTransition	PyFlameObject	Object representing a Transition.
+PyUser		Object representing a User.
+PyUsers		Object representing the User manager.
+PyVersion	PyFlameObject	Object representing a Version.
+PyWorkspace	PyArchiveEntry	Object representing a Workspace.
+PyWriteFileNode	PyRenderNode	Class derived from PyRenderNode. This class represents a WriteFile node.

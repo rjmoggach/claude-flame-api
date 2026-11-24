@@ -1,0 +1,8 @@
+- PyCoNode: Action Nodes Attributes — the `## Axis Attributes` section occurs 5 times (one after Atomize, four more between Streak Texture and UV Map), all byte-identical, also in the HTML original. Deduplicated to one **Axis** entry (raw: 52 sections / 446 attr entries; unique: 48 objects / 406 attrs). The extra copies may stand in for other object types the page fails to document.
+- PyCoNode: Action Nodes Attributes — Camera `film_type` description reads "The Focal attribute of the Camera Action node…" (apparent copy-paste error in source; kept verbatim).
+- PyCoNode: Action Nodes Attributes — `text` on both 3D Shape and 3D Text has type `unicode` and description "The text string of the 3D Text node." (verbatim).
+- PyNode: Batch Nodes Attributes — Compass lists neither `schematic_colour` nor `schematic_colour_label` (all other 91 nodes do).
+- PyNode: Batch Nodes Attributes — `current_node` is typed `NoneType` on Action and GMask Tracer but `(class 'flame.PyCoNode')` on Image (verbatim).
+- PyNode: Batch Nodes Attributes — `bit_depth` is `int` on Colour Mgmt but `str` on Write File / Render (different value lists; verbatim).
+- PyNode: Batch Nodes Attributes — Write File / Render `destination` has no "Value range" in the source; its argument list ("The following arguments can be set:") is shown in the value-range column and stored as `arguments` in the JSON.
+- Typos kept verbatim: "The status of the the Stereo option.", "Available only of **blend_type**", "Write File node.." etc.

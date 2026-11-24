@@ -1,0 +1,6 @@
+# Raw Autodesk help download (86 MB of HTML/JS/CSS) and its duplicate markdown dump;
+# the curated skill lives in skills/flame-api-2027 (with _source_md as ground truth).
+HTML_DOWNLOAD/
+raw_md/
+dist/
+.claude/settings.local.json

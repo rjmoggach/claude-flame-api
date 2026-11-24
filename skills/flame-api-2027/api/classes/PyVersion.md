@@ -1,0 +1,72 @@
+# class `flame.PyVersion`(PyFlameObject)
+
+Object representing a Version.
+
+**Method resolution order:** PyVersion → PyFlameObject
+
+> Cannot be instantiated from Python (obtained from other API objects).
+
+## Methods
+
+### `copy_to_media_panel`
+
+```python
+copy_to_media_panel( (PyVersion)arg1, (PyArchiveEntry)destination [, (str)duplicate_action='add']) -> object
+```
+
+Create a new clip with a copy of the PyObject.
+
+### `create_track`
+
+```python
+create_track( (PyVersion)arg1 [, (int)track_index=-1 [, (bool)hdr=False]]) -> object
+```
+
+Add a track to the Version.Keywords arguments:
+
+track_index -- Index to insert the new track at, -1 to append at the top.
+
+hdr -- Set to True to create an HDR track.
+
+### `import_DolbyVision_xml`
+
+```python
+import_DolbyVision_xml( (PyVersion)arg1, (str)file_name [, (str)mode='Include Frame Based Transitions Trims' [, (int)track_index=-1]]) -> object
+```
+
+Add a track to the Version.Keywords arguments:
+
+track_index -- Index to insert the new track at, -1 to append at the top.
+
+hdr -- Set to True to create an HDR track.
+
+## Read-only properties defined here
+
+### `stereo`
+
+Return whether or not the Version is stereo.
+
+### `tracks`
+
+Return a list of the Version's Tracks.
+
+## Inherited members
+
+- **Read-only properties inherited from PyFlameObject:** `attributes`, `parent`
+
+## Attributes (documented values)
+
+Source: "PyVersion Attributes" help page. Access via `obj.<attr>`; most return a `PyAttribute` — use `.get_value()` / `.set_value()` (see PyAttribute.md).
+
+#### `expanded (type 'bool')`
+
+The expanded status of the Version or Audio Track.
+
+Value range:
+
+- True
+- False
+
+#### `selected_segments (type 'list')`
+
+Return a list of PySegment currently selected.

@@ -1,0 +1,8 @@
+{
+  "name": "flame-api",
+  "version": "2027.1.0",
+  "description": "Autodesk Flame 2027 developer API context: Python flame module, hooks, custom UI actions, Batch/Action node attributes, Open Clip XML, Matchbox/Lightbox shaders, Pybox and Inference Builder.",
+  "author": { "name": "Robert Moggach", "email": "rjmoggach@gmail.com" },
+  "repository": "https://github.com/rjmoggach/claude-flame-api",
+  "keywords": ["flame", "autodesk", "vfx", "python", "hooks", "matchbox"]
+}
